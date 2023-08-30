@@ -1,0 +1,30 @@
+.contactus {
+    font-family: 'Poppins', sans-serif;
+    width: 30rem;
+    border-radius: 20px;
+    margin: 0 auto;
+    margin-top: 300px;
+    background-color: rgb(215, 215, 215);
+}
+
+.cards {
+
+    padding: 20px;
+}
+
+@media only screen and (max-width: 900px) and (min-width:10px) {
+    .contactus {
+        font-family: 'Poppins', sans-serif;
+        width: 100%;
+        border-radius: 0px;
+     
+        margin: 0 auto;
+        margin-top: 300px;
+        background-color: rgb(215, 215, 215);
+    }
+
+    body{
+        background-color: rgb(215, 215, 215) ;
+    }
+    
+}

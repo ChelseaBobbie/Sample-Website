@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./assets/css/demolayout.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <title>Demo Page</title>
+  </head>
+
+  <body>
+    <div class="con">
+      <header class="headercss" id="headercss" style="z-index: 1">
+        <nav class="button-container">
+          <a href="#carouselExampleAutoplaying" class="custom-button">
+            <i class="fa fa-home"></i> Home
+          </a>
+          <a href="#ourproducts" class="custom-button">
+            <i class="fa fa-shopping-cart"></i> Buy
+          </a>
+          <a href="#aboutus" class="custom-button">
+            <i class="fa fa-info-circle" aria-hidden="true"></i> About Us
+          </a>
+          <a href="#contact" class="custom-button">
+            <i class="fa fa-phone"></i> Contact
+          </a>
+          <a href="./signin.html" class="custom-button">
+            <i class="fa fa-sign-in" aria-hidden="true"></i> Sign In
+          </a>
+          <a class="custom-button">
+            <i class="fa fa-search" aria-hidden="true"></i>Search
+          </a>
+        </nav>
+
+        <section class="menutop">
+          <div class="logo">
+            <p>C-TECH</p>
+          </div>
+
+          <div class="menuburger">
+            <i class="fa fa-bars"></i>
+          </div>
+        </section>
+
+        <section class="topmenu">
+          <a href="#headercss" class="custom-button">
+            <i class="fa fa-home"></i> Home
+          </a>
+          <a href="#aboutus" class="custom-button">
+            <i class="fa fa-info-circle" aria-hidden="true"></i> About Us
+          </a>
+          <a href="#ourproducts" class="custom-button">
+            <i class="fa fa-shopping-cart"></i> Buy
+          </a>
+          <a href="./signin.html" class="custom-button">
+            <i class="fa fa-sign-in" aria-hidden="true"></i> Sign In
+          </a>
+
+          <a href="#contact" class="custom-button">
+            <i class="fa fa-phone"></i> Contact
+          </a>
+        </section>
+      </header>
+      <div
+        id="carouselExampleAutoplaying"
+        class="carousel slide"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-inner" data-bs-interval="1000">
+          <div class="carousel-item active">
+            <img
+              src="./assets/images/image5.png"
+              id="imagecar"
+              class="d-block w-100"
+              alt="..."
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="./assets/images/image6.jpg"
+              id="imagecar"
+              class="d-block w-100"
+              alt="..."
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="./assets/images/image7.jpg"
+              id="imagecar"
+              class="d-block w-100"
+              alt="..."
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="./assets/images/image8.jpg"
+              id="imagecar"
+              class="d-block w-100"
+              alt="..."
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="./assets/images/image9.jpg"
+              id="imagecar"
+              class="d-block w-100"
+              alt="..."
+            />
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleAutoplaying"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleAutoplaying"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <div id="ourproducts"></div>
+
+      <div class="firstheader" id="ourproducts">
+        <h1>Our Products</h1>
+      </div>
+      <div class="grid-container">
+        <div class="grid-item">
+          <img src="./assets/images/image1.jpg" alt="Image 1" />
+          <h4>Controllers</h4>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+          <a href="#moreitems" class="a">See more</a>
+        </div>
+        <div class="grid-item">
+          <img src="./assets/images/image2.jpg" alt="Image 1" />
+          <h4>Tablets</h4>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+          <a href="#moreitems" class="a">See more</a>
+        </div>
+        <div class="grid-item">
+          <img src="./assets/images/image3.jpg" alt="Image 1" />
+          <h4>Game Pass</h4>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+          <a href="#moreitems" class="a">See more</a>
+        </div>
+        <div class="grid-item">
+          <img src="./assets/images/image4.png" alt="Image 1" />
+          <h4>Peripherals</h4>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+          <a href="#moreitems" class="a">See more</a>
+        </div>
+      </div>
+
+      <div class="grid-image">
+        <div class="text">
+          <h1>Power your dreams</h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores
+            soluta libero expedita voluptas praesentium nobis!
+          </p>
+          <button class="button">Learn More</button>
+        </div>
+        <div class="picture">
+          <img src="./assets/images/xbox_PNG101377.png" alt="Image 1" />
+        </div>
+      </div>
+      <div class="smallheader" id="moreitems">
+        <h1>More Items</h1>
+      </div>
+
+      <div class="grid-wrapper">
+        <div class="grid-item">
+          <img src="./assets/images/image3.jpg" alt="Image 1" />
+        </div>
+        <div class="grid-item">
+          <img src="./assets/images/image2.jpg" alt="Image 1" />
+        </div>
+        <div class="grid-item">
+          <img src="./assets/images/image4.png" alt="Image 1" />
+        </div>
+        <div class="grid-item">
+          <img src="./assets/images/image1.jpg" alt="Image 1" />
+        </div>
+      </div>
+
+      <section class="aboutus" id="aboutus">
+        <h1>About Us</h1>
+
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam sequi
+          quas aliquam consectetur exercitationem, facere optio sit eum
+          repellat? Numquam omnis ratione corporis architecto incidunt enim,
+          dignissimos eum nihil amet natus deleniti, iste doloribus recusandae
+          eos error sit totam nesciunt repudiandae, molestias alias qui? Odit
+          reprehenderit quod pariatur earum repudiandae. Lorem ipsum dolor sit
+          amet consectetur adipisicing elit. Aspernatur dignissimos tenetur
+          voluptate quaerat saepe repellendus atque ea cum explicabo, unde
+          aliquid. Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+          Odio, sit? Quis beatae nobis dignissimos quaerat quae eius officiis
+          commodi doloribus.
+        </p>
+      </section>
+
+      <section class="contact" id="contact">
+        <div>
+          <h1>Contact Us</h1>
+          <form class="form">
+            <label>Name</label>
+            <input
+              class="input"
+              type=""
+              placeholder="Enter Your Name"
+              title="Names"
+            />
+            <label>E-mail</label>
+            <input
+              class="input"
+              type="email"
+              placeholder="Enter Your E-mail"
+              title="E-mail"
+            />
+            <label>Date of Birth</label
+            ><input
+              class="input"
+              type="date"
+              placeholder="Enter Your DOB "
+              title="DOB"
+            />
+            <label>Enter Your Issue</label>
+            <textarea rows="6" class="issue"></textarea>
+            <a href="./contactus.html" class="submit">Submit Form</a>
+          </form>
+        </div>
+      </section>
+      <footer class="footer">
+        <a href="#carouselExampleAutoplaying" class="custom-button">
+          <i class="fa fa-home"></i> Home
+        </a>
+        <a href="#aboutus" class="custom-button">
+          <i class="fa fa-info-circle" aria-hidden="true"></i> About Us
+        </a>
+        <a href="#ourproducts" class="custom-button">
+          <i class="fa fa-shopping-cart"></i> Buy
+        </a>
+        <a href="./signin.html" class="custom-button">
+          <i class="fa fa-sign-in" aria-hidden="true"></i> Sign In
+        </a>
+
+        <a href="#carouselExampleAutoplaying" class="custom-button">
+          <i class="fa fa-arrow-up" aria-hidden="true"></i> Back To Top
+        </a>
+      </footer>
+    </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

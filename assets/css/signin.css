@@ -1,0 +1,133 @@
+
+
+body {
+    margin: 0;
+    padding: 0;
+  
+    background-color: rgb(231, 231, 231)
+
+}
+
+
+
+
+html {
+
+    overflow-x: hidden;
+
+
+}
+
+
+
+.su {
+    background-color: rgb(215, 215, 215);
+    
+    width: 40%;
+    
+    margin: 0 auto;
+    margin-top: 180px;
+    font-family: 'Poppins', sans-serif;
+    border-radius: 20px;
+
+
+}
+
+#signup{
+    text-align: center;
+    padding-top: 40px;
+}
+
+
+label {
+    color: #000000;
+      font-family: 'Poppins', sans-serif;
+}
+
+.form {
+
+    text-decoration: none;
+    margin: 0 auto;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+
+
+
+
+}
+
+.form>div{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    justify-content: space-around;
+
+ 
+
+}
+
+.form>label {
+    text-align: left;
+    padding: 10px;
+
+
+}
+
+
+
+.input {
+    background-color: rgb(203, 203, 203);
+    border-radius: 10px;
+    height: 5px;
+    cursor: black;
+    border: black;
+    padding: 15px;
+    margin-bottom: 10px;
+
+
+}
+
+
+.submit {
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    color: white;
+    margin-top: 10px;
+    background-color: #0067b8;
+    align-self: flex-end;
+    border-radius: 10px;
+    padding: 10px;
+    width: 30%;
+
+}
+
+.submit:hover {
+    color: #ffffff;
+    background-color: #004377;
+    transition: background-color 0.3 ease;
+}
+@media only screen and (max-width: 900px) and (min-width:10px) {
+
+    .su {
+width: 100%;
+    
+    }
+
+    body{
+        background-color:rgb(215, 215, 215) ;
+    }
+
+    .form>div{
+        width: 100%;
+    
+    }
+
+    .form{
+        padding: 10px;
+    }
+
+
+}

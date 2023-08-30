@@ -1,0 +1,83 @@
+
+
+body {
+    margin: 0;
+    padding: 0;
+  
+    background-color: rgb(231, 231, 231)
+
+}
+
+
+
+
+html {
+
+    overflow-x: hidden;
+
+
+
+}
+
+
+
+.su {
+    background-color: rgb(215, 215, 215);
+    
+    width: 40%;
+    
+    margin: 0 auto;
+    margin-top: 180px;
+    font-family: 'Poppins', sans-serif;
+    border-radius: 20px;
+
+
+}
+
+#signup{
+    text-align: center;
+    padding-top: 20px;
+}
+
+
+label {
+    color: #000000;
+      font-family: 'Poppins', sans-serif;
+}
+
+
+
+
+.input {
+    background-color: rgb(203, 203, 203);
+    border-radius: 10px;
+    height: 5px;
+    cursor: black;
+    border: black;
+    padding: 15px;
+    margin-bottom: 10px;
+
+
+}
+.idek{
+    padding: 20px;
+}
+
+
+
+
+@media only screen and (max-width: 900px) and (min-width:10px) {
+
+    .su {
+width: 80%;
+margin-top: 100px;
+    
+    }
+
+    body{
+        background-color:rgb(215, 215, 215) ;
+    }
+
+
+
+}
