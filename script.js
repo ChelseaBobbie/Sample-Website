@@ -4,13 +4,11 @@ document.addEventListener("DOMContentLoaded", () => {
   const headerMenu = document.getElementById("headercss");
 
   burgerMenu.addEventListener("click", function () {
-    console.log({ topMenu });
     if (!topMenu.getAttribute("hidden")) {
       topMenu.setAttribute("hidden", true);
     } else {
       topMenu.style.zIndex = 1000000;
       headercss.style.zIndex = 1000;
-
       topMenu.removeAttribute("hidden");
     }
   });
