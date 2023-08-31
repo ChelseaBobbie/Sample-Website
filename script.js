@@ -1,25 +1,17 @@
-const btnCloseModal = document.querySelector(".close-modal");
-const btnsOpenModal = document.querySelectorAll(".show-modal");
-const overlay = document.querySelector(".overlay");
-const modal = document.querySelector(".modal");
+document.addEventListener("DOMContentLoaded", () => {
+  const burgerMenu = document.getElementById("burger");
+  const topMenu = document.getElementById("topmenu");
+  const headerMenu = document.getElementById("headercss");
 
-const openModal = function () {
-  modal.classList.remove("hidden");
-  overlay.classList.remove("hidden");
-};
+  burgerMenu.addEventListener("click", function () {
+    console.log({ topMenu });
+    if (!topMenu.getAttribute("hidden")) {
+      topMenu.setAttribute("hidden", true);
+    } else {
+      topMenu.style.zIndex = 1000000;
+      headercss.style.zIndex = 1000;
 
-const closeModal = function () {
-  modal.classList.add("hidden");
-  overlay.classList.add("hidden");
-};
-
-btnsOpenModal.addEventListener("click", openModal);
-
-btnCloseModal.addEventListener("click", closeModal);
-overlay.addEventListener("click", closeModal);
-
-document.addEventListener("keydown", function (e) {
-  if (e.key === "Escape" && !modal.classList.contains("hidden")) {
-    closeModal();
-  }
+      topMenu.removeAttribute("hidden");
+    }
+  });
 });

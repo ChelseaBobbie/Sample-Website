@@ -30,7 +30,7 @@
   <body>
     <div class="con">
       <header class="headercss" id="headercss" style="z-index: 1">
-        <nav class="button-container">
+        <nav id="header" class="button-container">
           <a href="#carouselExampleAutoplaying" class="custom-button">
             <i class="fa fa-home"></i> Home
           </a>
@@ -38,17 +38,15 @@
             <i class="fa fa-shopping-cart"></i> Buy
           </a>
           <a href="#aboutus" class="custom-button">
-            <i class="fa fa-info-circle" aria-hidden="true"></i> About Us
+            <i class="fa fa-info-circle"></i> About Us
           </a>
           <a href="#contact" class="custom-button">
             <i class="fa fa-phone"></i> Contact
           </a>
           <a href="./signin.html" class="custom-button">
-            <i class="fa fa-sign-in" aria-hidden="true"></i> Sign In
+            <i class="fa fa-sign-in"></i> Sign In
           </a>
-          <a class="custom-button">
-            <i class="fa fa-search" aria-hidden="true"></i>Search
-          </a>
+          <a class="custom-button"> <i class="fa fa-search"></i>Search </a>
         </nav>
 
         <section class="menutop">
@@ -56,13 +54,13 @@
             <p>C-TECH</p>
           </div>
 
-          <div class="menuburger">
+          <button id="burger" class="menuburger custom-button">
             <i class="fa fa-bars"></i>
-          </div>
+          </button>
         </section>
 
-        <section class="topmenu">
-          <a href="#headercss" class="custom-button">
+        <section id="topmenu" class="topmenu" hidden>
+          <a href="#carouselExampleAutoplaying" class="custom-button">
             <i class="fa fa-home"></i> Home
           </a>
           <a href="#aboutus" class="custom-button">
@@ -153,19 +151,19 @@
       </div>
       <div class="grid-container">
         <div class="grid-item">
-          <img src="./assets/images/image1.jpg" alt="Image 1" />
+          <img src="./assets/images/image1.png" alt="Image 1" />
           <h4>Controllers</h4>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
           <a href="#moreitems" class="a">See more</a>
         </div>
         <div class="grid-item">
-          <img src="./assets/images/image2.jpg" alt="Image 1" />
+          <img src="./assets/images/image2.png" alt="Image 1" />
           <h4>Tablets</h4>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
           <a href="#moreitems" class="a">See more</a>
         </div>
         <div class="grid-item">
-          <img src="./assets/images/image3.jpg" alt="Image 1" />
+          <img src="./assets/images/image3.png" alt="Image 1" />
           <h4>Game Pass</h4>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
           <a href="#moreitems" class="a">See more</a>
@@ -197,16 +195,16 @@
 
       <div class="grid-wrapper">
         <div class="grid-item">
-          <img src="./assets/images/image3.jpg" alt="Image 1" />
+          <img src="./assets/images/image3.png" alt="Image 1" />
         </div>
         <div class="grid-item">
-          <img src="./assets/images/image2.jpg" alt="Image 1" />
+          <img src="./assets/images/image2.png" alt="Image 1" />
         </div>
         <div class="grid-item">
           <img src="./assets/images/image4.png" alt="Image 1" />
         </div>
         <div class="grid-item">
-          <img src="./assets/images/image1.jpg" alt="Image 1" />
+          <img src="./assets/images/image1.png" alt="Image 1" />
         </div>
       </div>
 
@@ -283,5 +281,6 @@
       integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
       crossorigin="anonymous"
     ></script>
+    <script src="script.js"></script>
   </body>
 </html>
